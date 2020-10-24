@@ -1,6 +1,8 @@
 # **Custom PHP MVC Framework**
 
-This PHP MVC framework is created based on the learning from Laracast.The framework is VERY SIMPLE and will be used just for fun simple projects.
+This PHP MVC framework is created based on the learning from Laracast.
+
+The framework is VERY SIMPLE and will be used just for fun simple projects.
 
 <br>
 
