@@ -1,3 +1,5 @@
+<img src="public/images/logo.svg" width="60">
+
 # **Custom PHP MVC Framework**
 
 This PHP MVC framework is created based on the learning from Laracast.
