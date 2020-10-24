@@ -36,13 +36,13 @@ Use these commands to install the dependencies and start the server.
     $ composer install
     ```
 
-5.  **Import MySQL database (.sql file in the repo)**
+5.  **Create MySQL database (.sql file in the repo)**
 
     ```
-    $ php_csmvc_db.sql
+    $ php_csmvc_db
     ```
 
-    The original database name is: **php_csmvc_db**. Create new and import all from sql file. You can find database config in **config.php**.
+    The original database name is: **php_csmvc_db**. Create your custom new database and change config.You can find database config in **config.php**.
 
     <br>
 
