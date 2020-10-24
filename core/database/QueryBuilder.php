@@ -38,7 +38,7 @@ class QueryBuilder
 	}
 
 	/**
-	 * Insert a record into a table.
+	 * Insert a record into a database table.
 	 *
 	 * @param string $table
 	 * @param array $parameters
