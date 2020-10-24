@@ -4,6 +4,7 @@
 // Here we can store items using a class and not collection like an array.
 
 namespace App\Core;
+use Exception;
 
 class App
 {
@@ -25,6 +26,13 @@ class App
 		static::$registry[ $key ] = $value;
 	}
 
+	/**
+	 * Retrieve a value from the registry.
+	 *
+	 * @param string $key
+	 *
+	 * @return mixed
+	 */
 	public static function get( $key ) {
 		// Check if a key exists inside registry/container.
 		if ( ! array_key_exists( $key, static::$registry ) ) {
