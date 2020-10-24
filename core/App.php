@@ -32,6 +32,7 @@ class App
 	 * @param string $key
 	 *
 	 * @return mixed
+	 * @throws Exception
 	 */
 	public static function get( $key ) {
 		// Check if a key exists inside registry/container.
