@@ -37,6 +37,12 @@ class QueryBuilder
 		return $statement->fetchAll( PDO::FETCH_CLASS );
 	}
 
+	/**
+	 * Insert a record into a table.
+	 *
+	 * @param string $table
+	 * @param array $parameters
+	 */
 	public function insert( $table, $parameters ) {
 		$sql = sprintf(
 			'insert into %s (%s) values (%s)',
