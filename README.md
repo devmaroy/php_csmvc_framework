@@ -42,7 +42,7 @@ Use these commands to install the dependencies and start the server.
     $ php_csmvc_db
     ```
 
-    The original database name is: **php_csmvc_db**. Create your custom new database and change config.You can find database config in **config.php**.
+    The original database name is: **php_csmvc_db**. Create your custom new database and change config. You can find database config in **config.php**.
 
     <br>
 
